@@ -39,7 +39,8 @@ toString() // displays account number and balance
 Note: No if-else, switch will be used
 
 Create AccountTest() class to test the Account:
- 
+
+  
 public class AccountTest(){
 	public static void main (String[] args){
 
@@ -77,6 +78,7 @@ myAccount.withdraw(500.0);// Show message "You cannot withdraw on a closed accou
 myAccount.deposit(1000.0);// Show message "You cannot deposit on closed //account!". Call the toString() to show current balance and account number.
   }
 }
+
 
 #UML DIAGRAM
 -StatePattern
